@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Lesspecad is a lightweight Android browser with privacy-first browsing, offline ad blocking, reader mode, tab groups, and cloudless backups."
+    />
+    <meta name="theme-color" content="#0f172a" />
+    <meta property="og:title" content="Lesspecad Browser — Browse light, private, and in control" />
+    <meta
+      property="og:description"
+      content="A local-first Android browser with built-in ad filtering, incognito controls, reader mode, in-app scripts, and cloudless JSON backups."
+    />
+    <meta property="og:type" content="website" />
+    <title>Lesspecad Browser — Privacy-first Android browser</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Lesspecad home">
+        <span class="brand-mark" aria-hidden="true">L</span>
+        <span>Lesspecad</span>
+      </a>
+      <nav class="nav-links" aria-label="Landing page sections">
+        <a href="#features">Features</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#stack">Stack</a>
+        <a href="#download">Download</a>
+      </nav>
+      <a class="header-cta" href="https://github.com/flisvibing/lesspecad" rel="noreferrer">View GitHub</a>
+    </header>
+
+    <main id="top">
+      <section class="hero section-shell" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Privacy-first Android browser · under 10 MB APK target</p>
+          <h1 id="hero-title">Browse light, private, and fully in control.</h1>
+          <p class="hero-lede">
+            Lesspecad combines a local hostname ad filter, incognito-first controls, reader mode,
+            script extensions, tab groups, and cloudless backups in a modern Android browser built
+            with Jetpack Compose and Material 3.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button button-primary" href="https://github.com/flisvibing/lesspecad" rel="noreferrer">
+              Open source on GitHub
+            </a>
+            <a class="button button-secondary" href="#features">Explore features</a>
+          </div>
+          <dl class="trust-strip" aria-label="Project highlights">
+            <div>
+              <dt>100%</dt>
+              <dd>Kotlin Android</dd>
+            </div>
+            <div>
+              <dt>MPL 2.0</dt>
+              <dd>Open license</dd>
+            </div>
+            <div>
+              <dt>Offline</dt>
+              <dd>Ad filtering</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="phone-stage" aria-label="Product preview">
+          <div class="phone-frame">
+            <div class="phone-status" aria-hidden="true">
+              <span>9:41</span>
+              <span>5G ▰</span>
+            </div>
+            <div class="browser-card search-card">
+              <span class="lock-dot" aria-hidden="true"></span>
+              <span>lesspecad://private</span>
+            </div>
+            <div class="privacy-score">
+              <p>Blocked today</p>
+              <strong>1,248</strong>
+              <span>ads and tracker domains kept local</span>
+            </div>
+            <div class="mini-tabs" aria-hidden="true">
+              <span class="tab active"></span>
+              <span class="tab"></span>
+              <span class="tab"></span>
+            </div>
+            <div class="reader-panel">
+              <span class="panel-label">Reader Mode</span>
+              <h2>Clean articles without the clutter.</h2>
+              <p>Ads, sidebars, and visual noise are stripped away for focused reading.</p>
+            </div>
+          </div>
+          <div class="floating-badge badge-one">Incognito by default</div>
+          <div class="floating-badge badge-two">JSON backup, no cloud</div>
+        </div>
+      </section>
+
+      <section class="section-shell feature-intro" id="features" aria-labelledby="features-title">
+        <div>
+          <p class="eyebrow">Feature set</p>
+          <h2 id="features-title">A compact browser that still feels complete.</h2>
+        </div>
+        <p>
+          Designed for Android users who want fewer trackers, less clutter, and more local control
+          without depending on external add-ons or account-based syncing.
+        </p>
+      </section>
+
+      <section class="feature-grid section-shell" aria-label="Lesspecad capabilities">
+        <article class="feature-card featured-card">
+          <span class="card-icon" aria-hidden="true">✦</span>
+          <h3>Built-in local ad blocker</h3>
+          <p>
+            Hostname-based filtering blocks common advertising and tracking network domains on-device,
+            reducing visual clutter without a third-party extension dependency.
+          </p>
+        </article>
+        <article class="feature-card">
+          <span class="card-icon" aria-hidden="true">◐</span>
+          <h3>Incognito-first browsing</h3>
+          <p>
+            Temporary cookies, storage, and cache can be cleared from memory when a private tab closes,
+            with a preference to launch in clean-slate mode every time.
+          </p>
+        </article>
+        <article class="feature-card">
+          <span class="card-icon" aria-hidden="true">▦</span>
+          <h3>Visual tabs and groups</h3>
+          <p>
+            Manage open sessions with a card-based tab hub and organize work, research, and personal
+            browsing into labeled, color-coded groups.
+          </p>
+        </article>
+        <article class="feature-card">
+          <span class="card-icon" aria-hidden="true">Aa</span>
+          <h3>Reader mode</h3>
+          <p>
+            Extract articles and essays into a high-readability view that removes ads, sidebars,
+            navigation noise, and other distractions.
+          </p>
+        </article>
+        <article class="feature-card">
+          <span class="card-icon" aria-hidden="true">{ }</span>
+          <h3>In-app scripts</h3>
+          <p>
+            Customize pages with self-executing JavaScript extensions, including ready-to-use reading
+            aids, font zooming, and advanced dark-mode helpers.
+          </p>
+        </article>
+        <article class="feature-card">
+          <span class="card-icon" aria-hidden="true">⇄</span>
+          <h3>Cloudless backup</h3>
+          <p>
+            Export and import bookmarks, active tabs, groups, downloads, settings, and extensions as
+            secure JSON files without telemetry or cloud lock-in.
+          </p>
+        </article>
+      </section>
+
+      <section class="privacy-section section-shell" id="privacy" aria-labelledby="privacy-title">
+        <div class="privacy-copy">
+          <p class="eyebrow">Local-first privacy</p>
+          <h2 id="privacy-title">Your browser data should not need an account to stay useful.</h2>
+          <p>
+            Lesspecad focuses on device-side control: ad filtering happens locally, private sessions
+            stay temporary, and backups are explicit JSON files you can move between devices yourself.
+          </p>
+        </div>
+        <div class="privacy-list" role="list" aria-label="Privacy principles">
+          <div role="listitem"><strong>No external add-on required</strong><span>Core ad filtering ships in the browser.</span></div>
+          <div role="listitem"><strong>Temporary private state</strong><span>Incognito sessions can be discarded on close.</span></div>
+          <div role="listitem"><strong>No cloud sync dependency</strong><span>Portable exports keep the owner in control.</span></div>
+        </div>
+      </section>
+
+      <section class="stack-section section-shell" id="stack" aria-labelledby="stack-title">
+        <div>
+          <p class="eyebrow">Native Android stack</p>
+          <h2 id="stack-title">Modern architecture for a fast mobile browser.</h2>
+        </div>
+        <div class="stack-grid">
+          <article>
+            <h3>Jetpack Compose</h3>
+            <p>Declarative UI with Material Design 3 and Android dynamic color support.</p>
+          </article>
+          <article>
+            <h3>MVVM + Flow</h3>
+            <p>Reactive state flows and coroutines for predictable asynchronous behavior.</p>
+          </article>
+          <article>
+            <h3>Room SQLite</h3>
+            <p>Local persistence for preferences, bookmarks, extensions, downloads, and tabs.</p>
+          </article>
+          <article>
+            <h3>WebView pooling</h3>
+            <p>Lifecycle-aware WebView reuse helps reduce memory pressure and crashes.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="download-section section-shell" id="download" aria-labelledby="download-title">
+        <div>
+          <p class="eyebrow">Get involved</p>
+          <h2 id="download-title">Build the APK or contribute to the browser.</h2>
+          <p>
+            Lesspecad is open source under MPL 2.0. Clone the repository, build with Gradle, and help
+            shape a focused privacy browser for Android.
+          </p>
+        </div>
+        <div class="code-card" aria-label="Build commands">
+          <code>git clone https://github.com/flisvibing/lesspecad.git</code>
+          <code>cd lesspecad</code>
+          <code>gradle assembleDebug</code>
+        </div>
+        <a class="button button-primary" href="https://github.com/flisvibing/lesspecad" rel="noreferrer">
+          Visit repository
+        </a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Lesspecad Browser landing page · Built for privacy-first Android browsing.</p>
+      <a href="#top">Back to top</a>
+    </footer>
+  </body>
+</html>
