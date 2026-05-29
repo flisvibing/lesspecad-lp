@@ -1,0 +1,17 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Lesspecad logo</title>
+  <desc id="desc">A rounded cream square with a large serif L containing green, teal, purple, amber, and magenta color bands.</desc>
+  <rect width="1024" height="1024" rx="164" fill="#F8E8D5"/>
+  <defs>
+    <clipPath id="letterClip">
+      <text x="296" y="790" font-family="Georgia, 'Times New Roman', serif" font-size="720" font-weight="700">L</text>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#letterClip)">
+    <rect x="220" y="210" width="560" height="128" fill="#4CAF5E"/>
+    <rect x="220" y="338" width="560" height="110" fill="#0D8582"/>
+    <rect x="220" y="448" width="560" height="112" fill="#8A22E6"/>
+    <rect x="220" y="560" width="560" height="111" fill="#C8750E"/>
+    <rect x="220" y="671" width="560" height="150" fill="#970082"/>
+  </g>
+</svg>
